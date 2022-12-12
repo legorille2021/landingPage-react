@@ -6,7 +6,7 @@ import Sidebar from './components/Sidebar';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <div className="row">
         <div className="col-11">
         <Navbar />
@@ -20,7 +20,7 @@ function App() {
           </div>
         </div> 
       </div>
-      <div className="col-1 App_sidebar bg-white">
+      <div className="col-1 App_sidebar bg-light">
       <Sidebar />
       </div>
     </div> 

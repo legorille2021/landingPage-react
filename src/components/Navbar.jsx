@@ -3,7 +3,7 @@ import './css/navbar.css';
 
 const Navbar = () => {
   return (
-    <div className="navBar-container">
+    <div className="navBar">
       <div className="navLogo">
         Nightcities
       </div>

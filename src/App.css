@@ -1,12 +1,16 @@
 .app{
-  background-image:("../public/src/photo-app.jpg");
-
+  
+  background: url("https://i.pinimg.com/736x/49/16/5d/49165dc7305ca003a37c99da86308255.jpg");
+  background-position: center center ;
+  opacity:2;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   width: auto;
-  padding: 10px 20px;
+  
 }
+
+
 
 .home{
   position: relative;
@@ -23,11 +27,12 @@
   font-size: 80px;
   color: #fff;
   text-align: center;
-
+  text-shadow: -1px 0 hsl(272, 81%, 8%), 0 1px hsl(272, 81%, 8%), 1px 0 hsl(272, 81%, 8%), 0 -1px hsl(272, 81%, 8%);
 }
 .home-text-2{
   letter-spacing: 15px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 }
 
 .home-btn>button{
@@ -39,6 +44,7 @@
   background-color: transparent;
   border: 2px solid white;
   color: #fff;
+  text-shadow: -1px 0 hsl(272, 81%, 8%), 0 1px hsl(272, 81%, 8%), 1px 0 hsl(272, 81%, 8%), 0 -1px hsl(272, 81%, 8%);
 }
 
 .home-btn>button:hover{

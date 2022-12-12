@@ -15,9 +15,17 @@ const Sidebar = () => {
         <MdDragHandle  fontSize="medium"/>
       </div>
       <div className="sidebarDown">
-      <BsTwitter fontSize="medium"/>
-      <BsFacebook fontSize="medium"/>
-      <AiOutlineMail fontSize="medium"/> 
+        <div className="icon-btn">
+        <BsTwitter fontSize="medium"/>
+        </div>
+     
+        <div className="icon-btn"> 
+        <BsFacebook fontSize="medium"/>
+        </div>
+
+        <div className="icon-btn">
+        <AiOutlineMail fontSize="medium"/> 
+        </div>
     </div>
     </div>
   )
